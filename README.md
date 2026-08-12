@@ -32,12 +32,10 @@ desired upstream version. Packaging is driven by
 
 ## Collaborate with us
 
-latest-debs is a community effort — nobody "owns" this package and there's
-no application to fill out. If you rely on it and want to help keep it
-fresh, watching for a new upstream release or fixing a build hiccup, jump
-in. Open an issue, send a PR, or drop into
-[org discussions](https://github.com/orgs/latest-debs/discussions). Every
-bit of help keeps this useful for everyone else who `apt install`s it.
+latest-debs is a community effort. If you rely on this package and want to
+help keep it fresh, watching for a new upstream release or fixing a build
+hiccup, we'd love your help. Open an issue on this repo, or email
+**latest-debs@users.noreply.github.com** to get involved.
 
 ## Disclaimer
 

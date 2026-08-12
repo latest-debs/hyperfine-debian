@@ -1,0 +1,8 @@
+# Package definition for hyperfine
+
+package_name: hyperfine
+github_repo: sharkdp/hyperfine
+artifact_format: tar.gz
+description: "A command-line benchmarking tool"
+
+# Build for all Debian suites and all supported architectures.

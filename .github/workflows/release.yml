@@ -90,6 +90,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Cache upstream downloads
+        uses: actions/cache@v4
+        with:
+          path: /tmp/download_cache
+          key: download-hyperfine-${{ needs.prepare.outputs.version }}
+          restore-keys: download-hyperfine-
+
+      - name: Cache apt archives
+        uses: actions/cache@v4
+        with:
+          path: /var/cache/apt/archives
+          key: apt-${{ runner.os }}-${{ hashFiles('package.yaml') }}
+          restore-keys: apt-${{ runner.os }}-
+
       - name: Build hyperfine
         uses: ranjithrajv/debian-multiarch-builder@v.0.1a23
         env:

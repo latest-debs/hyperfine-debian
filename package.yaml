@@ -5,5 +5,6 @@ github_repo: sharkdp/hyperfine
 license: Apache-2.0
 artifact_format: tar.gz
 description: "A command-line benchmarking tool"
+license: Apache-2.0
 
 # Build for all Debian suites and all supported architectures.
